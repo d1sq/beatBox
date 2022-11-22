@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+<!--        .Light.DarkActionBar">&lt;!&ndash; Настройте свою тему здесь. &ndash;&gt;-->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/purple_200</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+    </style>
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
+<!--    <style name="BeatBoxButton">-->
+<!--        <item name="android:textStyle">bold</item>-->
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+<!--    <style name="BeatBoxButton.Strong">-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--    </style>-->
+</resources>
